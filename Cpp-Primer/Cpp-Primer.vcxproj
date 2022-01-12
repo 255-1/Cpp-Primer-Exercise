@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{547e512b-8ff6-4c32-84d3-c4947cf75710}</ProjectGuid>
+    <RootNamespace>CppPrimer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ex_7.15.cpp" />
+    <ClCompile Include="ex_6.36.cpp" />
+    <ClCompile Include="ex_3.43.cpp" />
+    <ClCompile Include="ex_3.41.cpp" />
+    <ClCompile Include="ex_3.31.cpp" />
+    <ClCompile Include="ex_3.17.cpp" />
+    <ClCompile Include="ex_3.20.cpp" />
+    <ClCompile Include="ex_1.1.cpp" />
+    <ClCompile Include="ex_1.10.cpp" />
+    <ClCompile Include="ex_1.11.cpp" />
+    <ClCompile Include="ex_1.12.cpp" />
+    <ClCompile Include="ex_1.13.cpp" />
+    <ClCompile Include="ex_1.16.cpp" />
+    <ClCompile Include="ex_1.17.cpp" />
+    <ClCompile Include="ex_1.19.cpp" />
+    <ClCompile Include="ex_1.2.cpp" />
+    <ClCompile Include="ex_1.20.cpp" />
+    <ClCompile Include="ex_1.21.cpp" />
+    <ClCompile Include="ex_1.22.cpp" />
+    <ClCompile Include="ex_1.23.cpp" />
+    <ClCompile Include="ex_1.25.cpp" />
+    <ClCompile Include="ex_1.3.cpp" />
+    <ClCompile Include="ex_1.4.cpp" />
+    <ClCompile Include="ex_1.5.cpp" />
+    <ClCompile Include="ex_1.8.cpp" />
+    <ClCompile Include="ex_1.9.cpp" />
+    <ClCompile Include="ex_2.17.cpp" />
+    <ClCompile Include="ex_2.18.cpp" />
+    <ClCompile Include="ex_2.39.cpp" />
+    <ClCompile Include="ex_2.4.cpp" />
+    <ClCompile Include="ex_2.41.cpp" />
+    <ClCompile Include="ex_2.8.cpp" />
+    <ClCompile Include="ex_2.9.cpp" />
+    <ClCompile Include="ex_3.1.cpp" />
+    <ClCompile Include="ex_3.10.cpp" />
+    <ClCompile Include="ex_3.11.cpp" />
+    <ClCompile Include="ex_3.14.cpp" />
+    <ClCompile Include="ex_3.15.cpp" />
+    <ClCompile Include="ex_3.2.cpp" />
+    <ClCompile Include="ex_3.21.cpp" />
+    <ClCompile Include="ex_3.23.cpp" />
+    <ClCompile Include="ex_3.24.cpp" />
+    <ClCompile Include="ex_3.32.cpp" />
+    <ClCompile Include="ex_3.35.cpp" />
+    <ClCompile Include="ex_3.37.cpp" />
+    <ClCompile Include="ex_3.39.cpp" />
+    <ClCompile Include="ex_3.4.cpp" />
+    <ClCompile Include="ex_3.40.cpp" />
+    <ClCompile Include="ex_3.44.cpp" />
+    <ClCompile Include="ex_3.45.cpp" />
+    <ClCompile Include="ex_3.5.cpp" />
+    <ClCompile Include="ex_3.6.cpp" />
+    <ClCompile Include="ex_3.7.cpp" />
+    <ClCompile Include="ex_4.21.cpp" />
+    <ClCompile Include="ex_4.22.cpp" />
+    <ClCompile Include="ex_4.28.cpp" />
+    <ClCompile Include="ex_4.29.cpp" />
+    <ClCompile Include="ex_5.10.cpp" />
+    <ClCompile Include="ex_5.11.cpp" />
+    <ClCompile Include="ex_5.14.cpp" />
+    <ClCompile Include="ex_5.17.cpp" />
+    <ClCompile Include="ex_5.19.cpp" />
+    <ClCompile Include="ex_5.23.cpp" />
+    <ClCompile Include="ex_5.3.cpp" />
+    <ClCompile Include="ex_5.5.cpp" />
+    <ClCompile Include="ex_5.9.cpp" />
+    <ClCompile Include="ex_6.10.cpp" />
+    <ClCompile Include="ex_6.11.cpp" />
+    <ClCompile Include="ex_6.12.cpp" />
+    <ClCompile Include="ex_6.16.cpp" />
+    <ClCompile Include="ex_6.17.cpp" />
+    <ClCompile Include="ex_6.21.cpp" />
+    <ClCompile Include="ex_6.22.cpp" />
+    <ClCompile Include="ex_6.23.cpp" />
+    <ClCompile Include="ex_6.25.cpp" />
+    <ClCompile Include="ex_6.27.cpp" />
+    <ClCompile Include="ex_6.3.cpp" />
+    <ClCompile Include="ex_6.37.cpp" />
+    <ClCompile Include="ex_6.38.cpp" />
+    <ClCompile Include="ex_6.4.cpp" />
+    <ClCompile Include="ex_6.42.cpp" />
+    <ClCompile Include="ex_6.44.cpp" />
+    <ClCompile Include="ex_6.47.cpp" />
+    <ClCompile Include="ex_6.5.cpp" />
+    <ClCompile Include="ex_6.51.cpp" />
+    <ClCompile Include="ex_6.54.cpp" />
+    <ClCompile Include="ex_6.6.cpp" />
+    <ClCompile Include="ex_6.7.cpp" />
+    <ClCompile Include="ex_6.9_fact.cpp" />
+    <ClCompile Include="ex_6.9_factMain.cpp" />
+    <ClCompile Include="ex_7.11.cpp" />
+    <ClCompile Include="ex_7.13.cpp" />
+    <ClCompile Include="ex_7.27.cpp" />
+    <ClCompile Include="ex_7.3.cpp" />
+    <ClCompile Include="ex_7.31.cpp" />
+    <ClCompile Include="ex_7.32.cpp" />
+    <ClCompile Include="ex_7.35.cpp" />
+    <ClCompile Include="ex_7.41.cpp" />
+    <ClCompile Include="ex_7.43.cpp" />
+    <ClCompile Include="ex_7.49.cpp" />
+    <ClCompile Include="ex_7.53.cpp" />
+    <ClCompile Include="ex_7.57.cpp" />
+    <ClCompile Include="ex_7.58.cpp" />
+    <ClCompile Include="ex_7.7.cpp" />
+    <ClCompile Include="ex_7.9.cpp" />
+    <ClCompile Include="ex_8.1.cpp" />
+    <ClCompile Include="ex_8.10.cpp" />
+    <ClCompile Include="ex_8.13.cpp" />
+    <ClCompile Include="ex_8.4.cpp" />
+    <ClCompile Include="ex_8.5.cpp" />
+    <ClCompile Include="ex_8.6.cpp" />
+    <ClCompile Include="ex_8.7.cpp" />
+    <ClCompile Include="ex_9.11.cpp" />
+    <ClCompile Include="ex_9.12.cpp" />
+    <ClCompile Include="ex_9.14.cpp" />
+    <ClCompile Include="ex_9.15.cpp" />
+    <ClCompile Include="ex_9.18.cpp" />
+    <ClCompile Include="ex_9.19.cpp" />
+    <ClCompile Include="ex_9.2.cpp" />
+    <ClCompile Include="ex_9.20.cpp" />
+    <ClCompile Include="ex_9.24.cpp" />
+    <ClCompile Include="ex_9.26.cpp" />
+    <ClCompile Include="ex_9.27.cpp" />
+    <ClCompile Include="ex_9.28.cpp" />
+    <ClCompile Include="ex_9.34.cpp" />
+    <ClCompile Include="ex_9.38.cpp" />
+    <ClCompile Include="ex_9.4.cpp" />
+    <ClCompile Include="ex_9.41.cpp" />
+    <ClCompile Include="ex_9.43.cpp" />
+    <ClCompile Include="ex_9.44.cpp" />
+    <ClCompile Include="ex_9.45.cpp" />
+    <ClCompile Include="ex_9.46.cpp" />
+    <ClCompile Include="ex_9.47.cpp" />
+    <ClCompile Include="ex_9.49.cpp" />
+    <ClCompile Include="ex_9.5.cpp" />
+    <ClCompile Include="ex_9.50.cpp" />
+    <ClCompile Include="ex_9.52.cpp" />
+    <ClCompile Include="Person_implement.cpp" />
+    <ClCompile Include="Sales_data_implement.cpp" />
+    <ClCompile Include="test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Account.h" />
+    <ClInclude Include="Chapter6.h" />
+    <ClInclude Include="example.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="Sales_data.h" />
+    <ClInclude Include="Sales_item.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="Version_test.h" />
+    <ClInclude Include="Window_mgr.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

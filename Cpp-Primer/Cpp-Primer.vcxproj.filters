@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\chapter1">
+      <UniqueIdentifier>{6dfaa45e-f8d7-4959-a9ed-296052c3b72c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter2">
+      <UniqueIdentifier>{b1664fc1-47ce-4c58-af2c-661efb0d118b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter3">
+      <UniqueIdentifier>{6cbcab8f-5866-4360-a28b-84ff6d31b9e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter4">
+      <UniqueIdentifier>{b92b8ec7-dd8f-4cdf-81bd-075c1ba7f764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter5">
+      <UniqueIdentifier>{d1b26ce0-ef0f-4542-b574-282615f6305b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter6">
+      <UniqueIdentifier>{356d9915-70db-407a-9895-a5070f572917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter7">
+      <UniqueIdentifier>{ab80b2a9-4443-4619-a1d2-cd788819df39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter8">
+      <UniqueIdentifier>{c50118cd-8b33-458e-ad1a-91b56ea352d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter9">
+      <UniqueIdentifier>{a6c207f3-eda7-4497-a843-e8ddcf8f587a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ex_1.1.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_1.2.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_1.3.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_1.4.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_1.5.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_1.8.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_1.9.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_1.10.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_1.11.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_1.12.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_1.13.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_1.16.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_1.17.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_1.19.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_1.20.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_1.21.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_1.22.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_1.23.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_1.25.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_2.4.cpp">
+      <Filter>源文件\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_2.8.cpp">
+      <Filter>源文件\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_2.9.cpp">
+      <Filter>源文件\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_2.17.cpp">
+      <Filter>源文件\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_2.18.cpp">
+      <Filter>源文件\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_2.39.cpp">
+      <Filter>源文件\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_2.41.cpp">
+      <Filter>源文件\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.1.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.2.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.4.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.5.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.6.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.10.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.17.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.20.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.7.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.11.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.14.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.15.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.21.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.23.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.24.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.31.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.32.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.35.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.37.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.39.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.40.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.43.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.41.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.44.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_3.45.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_4.21.cpp">
+      <Filter>源文件\chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_4.22.cpp">
+      <Filter>源文件\chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_4.29.cpp">
+      <Filter>源文件\chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_4.28.cpp">
+      <Filter>源文件\chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_5.3.cpp">
+      <Filter>源文件\chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_5.5.cpp">
+      <Filter>源文件\chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_5.9.cpp">
+      <Filter>源文件\chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_5.11.cpp">
+      <Filter>源文件\chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_5.10.cpp">
+      <Filter>源文件\chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_5.14.cpp">
+      <Filter>源文件\chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_5.17.cpp">
+      <Filter>源文件\chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_5.19.cpp">
+      <Filter>源文件\chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_5.23.cpp">
+      <Filter>源文件\chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.3.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.4.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.5.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.6.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.7.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.9_fact.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.9_factMain.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.10.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.11.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.16.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.12.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.17.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.21.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.22.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.23.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.25.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.27.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.36.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.37.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.38.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.42.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.44.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.47.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.51.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6.54.cpp">
+      <Filter>源文件\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_7.3.cpp">
+      <Filter>源文件\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Sales_data_implement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_7.7.cpp">
+      <Filter>源文件\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Person_implement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_7.9.cpp">
+      <Filter>源文件\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_7.11.cpp">
+      <Filter>源文件\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_7.13.cpp">
+      <Filter>源文件\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_7.15.cpp">
+      <Filter>源文件\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_7.27.cpp">
+      <Filter>源文件\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_7.31.cpp">
+      <Filter>源文件\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_7.32.cpp">
+      <Filter>源文件\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_7.35.cpp">
+      <Filter>源文件\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_7.41.cpp">
+      <Filter>源文件\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_7.43.cpp">
+      <Filter>源文件\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_7.49.cpp">
+      <Filter>源文件\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_7.53.cpp">
+      <Filter>源文件\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_7.57.cpp">
+      <Filter>源文件\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_7.58.cpp">
+      <Filter>源文件\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_8.1.cpp">
+      <Filter>源文件\chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_8.4.cpp">
+      <Filter>源文件\chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_8.5.cpp">
+      <Filter>源文件\chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_8.6.cpp">
+      <Filter>源文件\chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_8.7.cpp">
+      <Filter>源文件\chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_8.10.cpp">
+      <Filter>源文件\chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_8.13.cpp">
+      <Filter>源文件\chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.2.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.4.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.5.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.11.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.12.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.14.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.15.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.18.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.19.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.20.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.24.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.26.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.27.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.28.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.34.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.38.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.41.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.43.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.47.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.49.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.44.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.45.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.46.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.50.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_9.52.cpp">
+      <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sales_item.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Version_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sales_data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Window_mgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Account.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="example.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

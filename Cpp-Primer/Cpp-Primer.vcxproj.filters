@@ -43,6 +43,9 @@
     <Filter Include="源文件\chapter10">
       <UniqueIdentifier>{de15fa71-e70e-428d-ad53-afcae25277e5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\chapter11">
+      <UniqueIdentifier>{ddca2373-237c-4900-9d68-8eb74cfc14e0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ex_1.1.cpp">
@@ -555,6 +558,24 @@
     <ClCompile Include="ex_10.42.cpp">
       <Filter>源文件\chapter10</Filter>
     </ClCompile>
+    <ClCompile Include="ex_11.3.cpp">
+      <Filter>源文件\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_11.4.cpp">
+      <Filter>源文件\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_11.11.cpp">
+      <Filter>源文件\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_11.12.cpp">
+      <Filter>源文件\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_11.13.cpp">
+      <Filter>源文件\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_11.14.cpp">
+      <Filter>源文件\chapter11</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_item.h">
@@ -590,6 +611,9 @@
       <Filter>资源文件</Filter>
     </Text>
     <Text Include="input1033.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="input1112.txt">
       <Filter>资源文件</Filter>
     </Text>
   </ItemGroup>

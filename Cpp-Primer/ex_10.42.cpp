@@ -8,7 +8,7 @@ void elimDups1042(list<string>& words) {
 	words.unique();
 }
 
-int main() {
+int main1042() {
 	list<string> ls{ "a","aa","aaa","asadas" };
 	elimDups1042(ls);
 	for (const auto& e : ls) cout << e << " ";

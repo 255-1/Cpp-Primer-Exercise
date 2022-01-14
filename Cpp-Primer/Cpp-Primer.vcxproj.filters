@@ -40,6 +40,9 @@
     <Filter Include="源文件\chapter9">
       <UniqueIdentifier>{a6c207f3-eda7-4497-a843-e8ddcf8f587a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\chapter10">
+      <UniqueIdentifier>{de15fa71-e70e-428d-ad53-afcae25277e5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ex_1.1.cpp">
@@ -462,6 +465,96 @@
     <ClCompile Include="ex_9.52.cpp">
       <Filter>源文件\chapter9</Filter>
     </ClCompile>
+    <ClCompile Include="ex_10.1.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.2.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.3.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.4.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.6.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.9.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.11.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.12.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.13.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.14.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.15.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.16.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.17.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.18.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.19.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.20.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.21.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.22.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.24.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.25.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.29.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.30.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.31.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.32.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.33.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.34.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.35.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.36.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.37.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_10.42.cpp">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_item.h">
@@ -494,6 +587,9 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="input1033.txt">
       <Filter>资源文件</Filter>
     </Text>
   </ItemGroup>

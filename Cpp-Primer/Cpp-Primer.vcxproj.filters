@@ -576,6 +576,30 @@
     <ClCompile Include="ex_11.14.cpp">
       <Filter>源文件\chapter11</Filter>
     </ClCompile>
+    <ClCompile Include="ex_11.19.cpp">
+      <Filter>源文件\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_11.20.cpp">
+      <Filter>源文件\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_11.23.cpp">
+      <Filter>源文件\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_11.26.cpp">
+      <Filter>源文件\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_11.31.cpp">
+      <Filter>源文件\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_11.32.cpp">
+      <Filter>源文件\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_11.33.cpp">
+      <Filter>源文件\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_11.38.cpp">
+      <Filter>源文件\chapter11</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_item.h">
@@ -614,6 +638,12 @@
       <Filter>资源文件</Filter>
     </Text>
     <Text Include="input1112.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="input1133_map.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="input1133_input.txt">
       <Filter>资源文件</Filter>
     </Text>
   </ItemGroup>

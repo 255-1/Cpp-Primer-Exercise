@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -173,7 +173,15 @@
     <ClCompile Include="ex_11.12.cpp" />
     <ClCompile Include="ex_11.13.cpp" />
     <ClCompile Include="ex_11.14.cpp" />
+    <ClCompile Include="ex_11.19.cpp" />
+    <ClCompile Include="ex_11.20.cpp" />
+    <ClCompile Include="ex_11.23.cpp" />
+    <ClCompile Include="ex_11.26.cpp" />
     <ClCompile Include="ex_11.3.cpp" />
+    <ClCompile Include="ex_11.31.cpp" />
+    <ClCompile Include="ex_11.32.cpp" />
+    <ClCompile Include="ex_11.33.cpp" />
+    <ClCompile Include="ex_11.38.cpp" />
     <ClCompile Include="ex_11.4.cpp" />
     <ClCompile Include="ex_7.15.cpp" />
     <ClCompile Include="ex_6.36.cpp" />
@@ -331,6 +339,8 @@
     <Text Include="input.txt" />
     <Text Include="input1033.txt" />
     <Text Include="input1112.txt" />
+    <Text Include="input1133_input.txt" />
+    <Text Include="input1133_map.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

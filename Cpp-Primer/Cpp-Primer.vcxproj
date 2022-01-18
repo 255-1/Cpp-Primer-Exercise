@@ -183,6 +183,24 @@
     <ClCompile Include="ex_11.33.cpp" />
     <ClCompile Include="ex_11.38.cpp" />
     <ClCompile Include="ex_11.4.cpp" />
+    <ClCompile Include="ex_12.11.cpp" />
+    <ClCompile Include="ex_12.13.cpp" />
+    <ClCompile Include="ex_12.14.cpp" />
+    <ClCompile Include="ex_12.15.cpp" />
+    <ClCompile Include="ex_12.16.cpp" />
+    <ClCompile Include="ex_12.19.cpp" />
+    <ClCompile Include="ex_12.2.cpp" />
+    <ClCompile Include="ex_12.20.cpp" />
+    <ClCompile Include="ex_12.22.cpp" />
+    <ClCompile Include="ex_12.23.cpp" />
+    <ClCompile Include="ex_12.24.cpp" />
+    <ClCompile Include="ex_12.26.cpp" />
+    <ClCompile Include="ex_12.28.cpp" />
+    <ClCompile Include="ex_12.29.cpp" />
+    <ClCompile Include="ex_12.30.cpp" />
+    <ClCompile Include="ex_12.33.cpp" />
+    <ClCompile Include="ex_12.6.cpp" />
+    <ClCompile Include="ex_12.7.cpp" />
     <ClCompile Include="ex_7.15.cpp" />
     <ClCompile Include="ex_6.36.cpp" />
     <ClCompile Include="ex_3.43.cpp" />
@@ -322,7 +340,10 @@
     <ClCompile Include="ex_9.52.cpp" />
     <ClCompile Include="Person_implement.cpp" />
     <ClCompile Include="Sales_data_implement.cpp" />
+    <ClCompile Include="Str_blob_implement.cpp" />
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="TextQuery2_Implement.cpp" />
+    <ClCompile Include="TextQuery_Implement.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Account.h" />
@@ -332,15 +353,21 @@
     <ClInclude Include="Sales_data.h" />
     <ClInclude Include="Sales_item.h" />
     <ClInclude Include="Screen.h" />
+    <ClInclude Include="StrBlob.h" />
+    <ClInclude Include="TextQuery.h" />
+    <ClInclude Include="TextQuery2.h" />
     <ClInclude Include="Version_test.h" />
     <ClInclude Include="Window_mgr.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="input1228.txt" />
     <Text Include="input.txt" />
     <Text Include="input1033.txt" />
     <Text Include="input1112.txt" />
     <Text Include="input1133_input.txt" />
     <Text Include="input1133_map.txt" />
+    <Text Include="input1220.txt" />
+    <Text Include="input1229.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

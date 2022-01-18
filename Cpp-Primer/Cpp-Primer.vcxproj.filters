@@ -46,6 +46,9 @@
     <Filter Include="源文件\chapter11">
       <UniqueIdentifier>{ddca2373-237c-4900-9d68-8eb74cfc14e0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\chapter12">
+      <UniqueIdentifier>{27bf1644-b2cc-4010-aa1d-c95b9bcfd9f8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ex_1.1.cpp">
@@ -600,6 +603,69 @@
     <ClCompile Include="ex_11.38.cpp">
       <Filter>源文件\chapter11</Filter>
     </ClCompile>
+    <ClCompile Include="Str_blob_implement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_12.6.cpp">
+      <Filter>源文件\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_12.2.cpp">
+      <Filter>源文件\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_12.7.cpp">
+      <Filter>源文件\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_12.11.cpp">
+      <Filter>源文件\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_12.13.cpp">
+      <Filter>源文件\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_12.14.cpp">
+      <Filter>源文件\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_12.15.cpp">
+      <Filter>源文件\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_12.16.cpp">
+      <Filter>源文件\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_12.19.cpp">
+      <Filter>源文件\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_12.20.cpp">
+      <Filter>源文件\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_12.22.cpp">
+      <Filter>源文件\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_12.23.cpp">
+      <Filter>源文件\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_12.24.cpp">
+      <Filter>源文件\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_12.26.cpp">
+      <Filter>源文件\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_12.28.cpp">
+      <Filter>源文件\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_12.29.cpp">
+      <Filter>源文件\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="TextQuery_Implement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_12.30.cpp">
+      <Filter>源文件\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="TextQuery2_Implement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_12.33.cpp">
+      <Filter>源文件\chapter12</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_item.h">
@@ -629,6 +695,15 @@
     <ClInclude Include="example.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="StrBlob.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextQuery.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextQuery2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
@@ -644,6 +719,15 @@
       <Filter>资源文件</Filter>
     </Text>
     <Text Include="input1133_input.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="input1220.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="input1228.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="input1229.txt">
       <Filter>资源文件</Filter>
     </Text>
   </ItemGroup>

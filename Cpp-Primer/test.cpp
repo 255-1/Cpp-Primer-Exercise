@@ -23,9 +23,29 @@ constexpr size_t scale(size_t cnt) { return cnt; }
 
 
 int maintest() {
+	//int a[5]{0};
+	//for (auto it = begin(a); it != end(a); ++it) {
+	//	cout << *it << endl;
+	//}
 
-	string str("asdasdasd");
-	cout << str.find_last_of("scx") << endl;
+	int* a = new int[5]();
+	unique_ptr<int[]>p(a);
+	for (int i = 0; i < 5; ++i) {
+		cout << p[i] << endl;
+	}
+
+
+	//shared_ptr<int> p(new int(100));
+	//cout << p.use_count() << endl;
+	//weak_ptr<int> wp(p);
+	//cout << p.use_count() << endl;
+	//if (shared_ptr<int> np = wp.lock()) {
+	//	cout << p.use_count() << endl;
+	//	cout << np.use_count() << endl;
+	//}
+	//cout << p.use_count() << endl;
+	//string str("asdasdasd");
+	//cout << str.find_last_of("scx") << endl;
 
 	/*int arr[getParam(2)];*/
 

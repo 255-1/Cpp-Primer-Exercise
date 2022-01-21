@@ -49,6 +49,9 @@
     <Filter Include="源文件\chapter12">
       <UniqueIdentifier>{27bf1644-b2cc-4010-aa1d-c95b9bcfd9f8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\chapter13">
+      <UniqueIdentifier>{ad4ec9f3-ce5c-4250-a459-dd462b2dc610}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ex_1.1.cpp">
@@ -666,6 +669,54 @@
     <ClCompile Include="ex_12.33.cpp">
       <Filter>源文件\chapter12</Filter>
     </ClCompile>
+    <ClCompile Include="ex_13.13.cpp">
+      <Filter>源文件\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_13.14.cpp">
+      <Filter>源文件\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_13.15.cpp">
+      <Filter>源文件\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_13.16.cpp">
+      <Filter>源文件\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_13.18.cpp">
+      <Filter>源文件\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_13.27.cpp">
+      <Filter>源文件\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_13.30.cpp">
+      <Filter>源文件\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_13.31.cpp">
+      <Filter>源文件\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="HasPtr_Implement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Message_Implement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StrVec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_13.48.cpp">
+      <Filter>源文件\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_13.53.cpp">
+      <Filter>源文件\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_13.54.cpp">
+      <Filter>源文件\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_13.58.cpp">
+      <Filter>源文件\chapter13</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_item.h">
@@ -702,6 +753,27 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="TextQuery2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HasPtr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HasPtr2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StrVec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="String_.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -11,7 +11,7 @@ void runQueries1233(ifstream& infile) {
 	}
 }
 
-int main() {
+int main1233() {
 	ifstream ifs("input1229.txt");
 	runQueries1233(ifs);
 

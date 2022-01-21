@@ -9,7 +9,7 @@
 #include <sstream>
 #include <algorithm>
 using namespace std;
-TextQuery::TextQuery(std::ifstream& is) :file(new vector<string>) {
+TextQuery::TextQuery(std::ifstream& is) :file(new StrVec) {
 	string text;
 	while (getline(is, text)) {
 		file->push_back(text);
@@ -42,6 +42,6 @@ std::ostream&
 print(std::ostream& os, const QueryResult& qr) {
 	os << qr.sought << " occurs " << qr.lines->size() << " times"<< endl;
 	for (auto num : *qr.lines)
-		os << "\t(line " << num + 1 << ") " << qr.file->at(num) << endl;
+		os << "\t(line " << num + 1 << ") " << *(qr.file->begin()+num) << endl;
 	return os;
 }

@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ex_13.13.cpp" />
     <ClCompile Include="ex_10.1.cpp" />
     <ClCompile Include="ex_10.11.cpp" />
     <ClCompile Include="ex_10.12.cpp" />
@@ -201,6 +202,17 @@
     <ClCompile Include="ex_12.33.cpp" />
     <ClCompile Include="ex_12.6.cpp" />
     <ClCompile Include="ex_12.7.cpp" />
+    <ClCompile Include="ex_13.14.cpp" />
+    <ClCompile Include="ex_13.15.cpp" />
+    <ClCompile Include="ex_13.16.cpp" />
+    <ClCompile Include="ex_13.18.cpp" />
+    <ClCompile Include="ex_13.27.cpp" />
+    <ClCompile Include="ex_13.30.cpp" />
+    <ClCompile Include="ex_13.31.cpp" />
+    <ClCompile Include="ex_13.48.cpp" />
+    <ClCompile Include="ex_13.53.cpp" />
+    <ClCompile Include="ex_13.54.cpp" />
+    <ClCompile Include="ex_13.58.cpp" />
     <ClCompile Include="ex_7.15.cpp" />
     <ClCompile Include="ex_6.36.cpp" />
     <ClCompile Include="ex_3.43.cpp" />
@@ -338,8 +350,12 @@
     <ClCompile Include="ex_9.5.cpp" />
     <ClCompile Include="ex_9.50.cpp" />
     <ClCompile Include="ex_9.52.cpp" />
+    <ClCompile Include="HasPtr_Implement.cpp" />
+    <ClCompile Include="Message_Implement.cpp" />
     <ClCompile Include="Person_implement.cpp" />
     <ClCompile Include="Sales_data_implement.cpp" />
+    <ClCompile Include="String.cpp" />
+    <ClCompile Include="StrVec.cpp" />
     <ClCompile Include="Str_blob_implement.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="TextQuery2_Implement.cpp" />
@@ -348,12 +364,19 @@
   <ItemGroup>
     <ClInclude Include="Account.h" />
     <ClInclude Include="Chapter6.h" />
+    <ClInclude Include="Employee.h" />
     <ClInclude Include="example.h" />
+    <ClInclude Include="HasPtr.h" />
+    <ClInclude Include="HasPtr2.h" />
+    <ClInclude Include="Message.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Sales_data.h" />
     <ClInclude Include="Sales_item.h" />
     <ClInclude Include="Screen.h" />
     <ClInclude Include="StrBlob.h" />
+    <ClInclude Include="String.h" />
+    <ClInclude Include="String_.h" />
+    <ClInclude Include="StrVec.h" />
     <ClInclude Include="TextQuery.h" />
     <ClInclude Include="TextQuery2.h" />
     <ClInclude Include="Version_test.h" />

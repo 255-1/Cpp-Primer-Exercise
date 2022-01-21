@@ -11,11 +11,22 @@ public:
 	using size_type = std::vector<std::string>::size_type;
 	StrBlob();
 	StrBlob(std::initializer_list<std::string> il);
+	//拷贝构造
+	StrBlob(const StrBlob& sb)
+		:data(std::make_shared<std::vector<std::string>>(*sb.data)) {}
+	//拷贝赋值
+	StrBlob& operator=(const StrBlob& sb) {
+		data = std::make_shared<std::vector<std::string>>(*sb.data);
+		return *this;
+	}
 	size_type size()const { return data->size(); }
 	bool empty() const { return data->empty(); }
 	//添加和删除元素
 	void push_back(const std::string& t) {
 		data->push_back(t);
+	}
+	void push_back(std::string&& s) {
+		data->push_back(std::move(s));
 	}
 	void pop_back();
 	//元素访问

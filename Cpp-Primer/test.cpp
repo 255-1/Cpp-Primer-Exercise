@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
-
+#include "Sales_data.h"
+#include "StrVec.h"
 using namespace std;
 
 int next_num() {
@@ -22,17 +23,36 @@ constexpr size_t scale(size_t cnt) { return cnt; }
 //}
 
 
+class CopyExample {
+public:
+	CopyExample(int i) :num(i) {}
+	CopyExample(const CopyExample& ex) {
+		num = ex.num;
+		cout << "¿½±´¹¹Ôìº¯Êý" << endl;
+	}
+	void testCopy(CopyExample ce) {}
+private:
+	int num;
+};
+
+
 int maintest() {
+
+	StrVec vec;
+	string s = "some string or another";
+	vec.push_back(s);
+	vec.push_back("done");
+
 	//int a[5]{0};
 	//for (auto it = begin(a); it != end(a); ++it) {
 	//	cout << *it << endl;
 	//}
 
-	int* a = new int[5]();
-	unique_ptr<int[]>p(a);
-	for (int i = 0; i < 5; ++i) {
-		cout << p[i] << endl;
-	}
+	//int* a = new int[5]();
+	//unique_ptr<int[]>p(a);
+	//for (int i = 0; i < 5; ++i) {
+	//	cout << p[i] << endl;
+	//}
 
 
 	//shared_ptr<int> p(new int(100));

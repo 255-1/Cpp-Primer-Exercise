@@ -17,7 +17,7 @@ int main1012() {
 		Sales_data("a",2,2)
 	};
 	sort(vs.begin(), vs.end(), compareIsbn);
-	for (const auto& e : vs) print(cout,e) << endl;
+	//for (const auto& e : vs) print(cout,e) << endl;
 
 	return 0;
 }

@@ -7,6 +7,9 @@ class ConstStrBlobPtr;
 class StrBlob {
 	friend class StrBlobPtr;
 	friend class ConstStrBlobPtr;
+	friend bool operator==(const StrBlob& lhs, const StrBlob& rhs);
+	friend bool operator!=(const StrBlob& lhs, const StrBlob& rhs);
+	friend bool operator<(const StrBlob& lhs, const StrBlob& rhs);
 public:
 	using size_type = std::vector<std::string>::size_type;
 	StrBlob();
@@ -21,6 +24,9 @@ public:
 	}
 	size_type size()const { return data->size(); }
 	bool empty() const { return data->empty(); }
+	std::string& operator[](size_t n) {
+		return (*data)[n];
+	}
 	//Ìí¼ÓºÍÉ¾³ýÔªËØ
 	void push_back(const std::string& t) {
 		data->push_back(t);
@@ -45,14 +51,36 @@ private:
 	void check(size_type i, const std::string& msg) const;
 
 };
+bool operator<(const StrBlob& lhs, const StrBlob& rhs);
+bool operator==(const StrBlob& lhs, const StrBlob& rhs);
+bool operator!=(const StrBlob& lhs, const StrBlob& rhs);
+
 
 //Ê¹ÓÃweak
 class StrBlobPtr {
+	friend bool operator==(const StrBlobPtr& lhs, const StrBlobPtr& rhs);
+	friend bool operator!=(const StrBlobPtr& lhs, const StrBlobPtr& rhs);
+	friend bool operator<(const StrBlobPtr& lhs, const StrBlobPtr& rhs);
 public:
 	StrBlobPtr() : curr(0) {}
 	StrBlobPtr(StrBlob& a, size_t sz = 0) :
 		wptr(a.data), curr(sz) {}
 	bool operator!=(const StrBlobPtr& p);
+	std::string operator[](size_t n) {
+		return (*wptr.lock())[n];
+	}
+	StrBlobPtr& operator++() {check(curr, "³¬³ö·¶Î§");++curr;return *this;}
+	StrBlobPtr& operator++(int) {StrBlobPtr ret = *this;++* this;return ret;}
+	StrBlobPtr& operator--() {check(curr, "³¬³ö·¶Î§"); --curr;return *this;}
+	StrBlobPtr& operator--(int) {StrBlobPtr ret = *this;--* this;return ret;}
+	StrBlobPtr& operator+=(size_t n) {curr += n;check(curr, "³¬³ö·¶Î§");return *this;}
+	StrBlobPtr& operator-=(size_t n) {curr -= n;check(curr, "³¬³ö·¶Î§");return *this;}
+	StrBlobPtr operator+(size_t n) { StrBlobPtr ret = *this; ret += n; return ret; }
+	StrBlobPtr operator-(size_t n) { StrBlobPtr ret = *this; ret -= n; return ret; }
+	std::string& operator*() const {auto p = check(curr, "³¬³ö·¶Î§");return (*p)[curr];}
+	std::string* operator->() const {
+		return &this->operator*();
+	}
 	std::string& deref() const;
 	StrBlobPtr& incr();
 private:
@@ -62,11 +90,24 @@ private:
 	std::weak_ptr<std::vector<std::string>> wptr;
 };
 
+bool operator==(const StrBlobPtr& lhs, const StrBlobPtr& rhs);
+bool operator!=(const StrBlobPtr& lhs, const StrBlobPtr& rhs);
+bool operator<(const StrBlobPtr& lhs, const StrBlobPtr& rhs);
 class ConstStrBlobPtr {
+	friend bool operator==(const ConstStrBlobPtr& lhs, const ConstStrBlobPtr& rhs);
+	friend bool operator!=(const ConstStrBlobPtr& lhs, const ConstStrBlobPtr& rhs);
+	friend bool operator<(const ConstStrBlobPtr& lhs, const ConstStrBlobPtr& rhs);
 public:
 	ConstStrBlobPtr() :curr(0) { }
 	ConstStrBlobPtr(const StrBlob& a, size_t sz = 0) :wptr(a.data), curr(sz) { } // should add const
 	bool operator!=(ConstStrBlobPtr& p);
+	const std::string& operator*() const {
+		auto p = check(curr, "³¬³ö·¶Î§");
+		return (*p)[curr];
+	}
+	const std::string* operator->() const {
+		return &this->operator*();
+	}
 	const std::string& deref() const { 
 		auto p = check(curr, "dereference past end");
 		return (*p)[curr];
@@ -82,4 +123,20 @@ private:
 	std::weak_ptr<std::vector<std::string>> wptr;
 	size_t curr;
 
+};
+
+bool operator==(const ConstStrBlobPtr& lhs, const ConstStrBlobPtr& rhs);
+bool operator!=(const ConstStrBlobPtr& lhs, const ConstStrBlobPtr& rhs);
+bool operator<(const ConstStrBlobPtr& lhs, const ConstStrBlobPtr& rhs);
+
+
+class StrBlobPtr_pointer {
+public:
+	StrBlobPtr_pointer() = default;
+	StrBlobPtr_pointer(StrBlobPtr* p):pointer(p){}
+
+	StrBlobPtr& operator*() const;
+	StrBlobPtr* operator->() const;
+private:
+	StrBlobPtr* pointer;
 };

@@ -46,6 +46,10 @@ String::~String()
 {
 	free();
 }
+char String::operator[](size_t n)
+{
+	return *(elements + n);
+}
 std::pair<char*, char*>
 String::alloc_n_copy(const char* b, const char* e)
 {
@@ -64,4 +68,28 @@ void String::free()
 		std::for_each(elements, end, [this](char& c) {alloc.destroy(&c); });
 		alloc.deallocate(elements, end - elements);
 	}
+}
+
+std::ostream& operator<<(std::ostream& os, const String& s)
+{
+	char* c = const_cast<char*>(s.c_str());
+	while (*c)
+		os << *c++;
+	return os;
+}
+
+bool operator==(const String& lhs, const String& rhs)
+{
+	return (lhs.size() == rhs.size() &&
+		std::equal(lhs.elements, lhs.end, rhs.elements));
+}
+
+bool operator!=(const String& lhs, const String& rhs)
+{
+	return !(lhs == rhs);
+}
+
+bool operator<(const String& lhs, const String& rhs)
+{
+	return std::lexicographical_compare(lhs.elements, lhs.end, rhs.elements, rhs.end);
 }

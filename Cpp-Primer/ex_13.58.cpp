@@ -33,7 +33,7 @@ private:
 	vector<int> data;
 };
 
-int main()
+int main1358()
 {
 	Foo().sorted();
 	Foo f;

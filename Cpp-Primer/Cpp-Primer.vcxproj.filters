@@ -52,6 +52,9 @@
     <Filter Include="源文件\chapter13">
       <UniqueIdentifier>{ad4ec9f3-ce5c-4250-a459-dd462b2dc610}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\chapter14">
+      <UniqueIdentifier>{c3f69daa-9322-4f8c-9a9c-f2edaa5101c2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ex_1.1.cpp">
@@ -606,7 +609,7 @@
     <ClCompile Include="ex_11.38.cpp">
       <Filter>源文件\chapter11</Filter>
     </ClCompile>
-    <ClCompile Include="Str_blob_implement.cpp">
+    <ClCompile Include="Str_Blob_implement.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="ex_12.6.cpp">
@@ -716,6 +719,66 @@
     </ClCompile>
     <ClCompile Include="ex_13.58.cpp">
       <Filter>源文件\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_14.2.cpp">
+      <Filter>源文件\chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_14.7.cpp">
+      <Filter>源文件\chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_14.10.cpp">
+      <Filter>源文件\chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_14.16.cpp">
+      <Filter>源文件\chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_14.26.cpp">
+      <Filter>源文件\chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_14.27.cpp">
+      <Filter>源文件\chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_14.28.cpp">
+      <Filter>源文件\chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_14.30.cpp">
+      <Filter>源文件\chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_14.32.cpp">
+      <Filter>源文件\chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_14.34.cpp">
+      <Filter>源文件\chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_14.35.cpp">
+      <Filter>源文件\chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_14.36.cpp">
+      <Filter>源文件\chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_14.37.cpp">
+      <Filter>源文件\chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_14.38.cpp">
+      <Filter>源文件\chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_14.39.cpp">
+      <Filter>源文件\chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_14.40.cpp">
+      <Filter>源文件\chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_14.42.cpp">
+      <Filter>源文件\chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_14.43.cpp">
+      <Filter>源文件\chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_14.44.cpp">
+      <Filter>源文件\chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_14.45.cpp">
+      <Filter>源文件\chapter14</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

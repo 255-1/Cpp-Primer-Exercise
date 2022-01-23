@@ -1,5 +1,9 @@
 #include <string>
+#include <stdexcept>
 class StrVec {
+	friend bool operator==(const StrVec& lhs, const StrVec& rhs);
+	friend bool operator!=(const StrVec& lhs, const StrVec& rhs);
+	friend bool operator<(const StrVec& lhs, const StrVec& rhs);
 public:
 	StrVec() :
 		elements(nullptr), first_free(nullptr), cap(nullptr) {}
@@ -10,6 +14,13 @@ public:
 	StrVec& operator=(StrVec&&) noexcept;
 	~StrVec();
 
+	StrVec& operator=(std::initializer_list<std::string> il);
+	std::string& operator[](size_t n) {
+		auto loc = elements + n;
+		if (loc >= first_free)
+			throw std::out_of_range("ÏÂ±ê³¬³ö·¶Î§");
+		return *loc;
+	}
 	void push_back(const std::string&);
 	void push_back(std::string&& s);
 	size_t size() const {return first_free - elements;}
@@ -35,3 +46,6 @@ private:
 	std::string* cap;
 };
 
+bool operator==(const StrVec& lhs, const StrVec& rhs);
+bool operator!=(const StrVec& lhs, const StrVec& rhs);
+bool operator<(const StrVec& lhs, const StrVec& rhs);

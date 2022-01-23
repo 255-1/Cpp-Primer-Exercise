@@ -47,6 +47,15 @@ StrVec::~StrVec()
 	free();
 }
 
+StrVec& StrVec::operator=(std::initializer_list<std::string> il)
+{
+	auto data = alloc_n_copy(il.begin(), il.end());
+	free();
+	elements = data.first;
+	first_free = cap = data.second;
+	return *this;
+}
+
 void StrVec::push_back(const std::string& s)
 {
 	std::cout << "¿½±´ push back" << std::endl;
@@ -130,4 +139,20 @@ void StrVec::reallocate()
 	elements = newdata;
 	first_free = dest;
 	cap = elements + newcapacity;
+}
+
+bool operator==(const StrVec& lhs, const StrVec& rhs)
+{
+	return std::equal(lhs.begin(), lhs.end(), rhs.begin());
+}
+
+bool operator!=(const StrVec& lhs, const StrVec& rhs)
+{
+	return !(lhs == rhs);
+}
+
+bool operator<(const StrVec& lhs, const StrVec& rhs)
+{
+	return std::lexicographical_compare(lhs.begin(), lhs.end(),
+		rhs.begin(), rhs.end());
 }

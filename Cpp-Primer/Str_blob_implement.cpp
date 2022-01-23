@@ -89,3 +89,59 @@ ConstStrBlobPtr StrBlob::cend() const {
 bool ConstStrBlobPtr::operator!=(ConstStrBlobPtr& p) {
 	return p.curr != curr;
 }
+
+
+bool operator<(const StrBlob& lhs, const StrBlob& rhs)
+{
+	return *lhs.data < *rhs.data;
+}
+
+bool operator==(const StrBlob& lhs, const StrBlob& rhs)
+{
+	return *lhs.data == *rhs.data;
+}
+
+bool operator!=(const StrBlob& lhs, const StrBlob& rhs)
+{
+	return !(lhs == rhs);
+}
+
+bool operator==(const StrBlobPtr& lhs, const StrBlobPtr& rhs)
+{
+	return lhs.curr == rhs.curr;
+}
+
+bool operator!=(const StrBlobPtr& lhs, const StrBlobPtr& rhs)
+{
+	return !(lhs == rhs);
+}
+
+bool operator<(const StrBlobPtr& lhs, const StrBlobPtr& rhs)
+{
+	return lhs.curr < rhs.curr;
+}
+
+bool operator==(const ConstStrBlobPtr& lhs, const ConstStrBlobPtr& rhs)
+{
+	return lhs.curr == rhs.curr;
+}
+
+bool operator!=(const ConstStrBlobPtr& lhs, const ConstStrBlobPtr& rhs)
+{
+	return !(lhs == rhs);
+}
+
+bool operator<(const ConstStrBlobPtr& lhs, const ConstStrBlobPtr& rhs)
+{
+	return lhs.curr < rhs.curr;
+}
+
+StrBlobPtr& StrBlobPtr_pointer::operator*() const
+{
+	return *pointer;
+}
+
+StrBlobPtr* StrBlobPtr_pointer::operator->() const
+{
+	return pointer;
+}

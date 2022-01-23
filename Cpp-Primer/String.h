@@ -2,6 +2,10 @@
 
 #include <memory>
 class String {
+	friend std::ostream& operator<<(std::ostream&, const String&);
+	friend bool operator==(const String& lhs, const String& rhs);
+	friend bool operator!=(const String& lhs, const String& rhs);
+	friend bool operator<(const String& lhs, const String& rhs);
 public:
 	String() : String("") {}
 	String(const char*);
@@ -11,6 +15,8 @@ public:
 	String& operator=(String&&) noexcept;
 	~String();
 
+	char operator[](size_t n);
+	char* begin() const { return elements; }
 	const char* c_str() const { return elements; }
 	size_t size()const { return end - elements; }
 	size_t length() const { return end - elements - 1; }
@@ -24,3 +30,8 @@ private:
 	char* end;
 	std::allocator<char> alloc;
 };
+
+std::ostream& operator<<(std::ostream&, const String&);
+bool operator==(const String& lhs, const String& rhs);
+bool operator!=(const String& lhs, const String& rhs);
+bool operator<(const String& lhs, const String& rhs);

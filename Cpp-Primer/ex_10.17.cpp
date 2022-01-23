@@ -15,7 +15,7 @@ int main1017() {
 		[](const Sales_data &lhs, const Sales_data& rhs) {
 			return lhs.isbn() < rhs.isbn();
 		});
-	for (const auto& e : vs) print(cout, e) << endl;
+	//for (const auto& e : vs) print(cout, e) << endl;
 
 	return 0;
 }

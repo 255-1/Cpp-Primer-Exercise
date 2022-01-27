@@ -3,7 +3,7 @@
 #include <fstream>
 using namespace std;
 
-int main()
+int main1542()
 {
 	ifstream ifs("input159.txt");
 	TextQuery2 t(ifs);

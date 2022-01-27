@@ -21,6 +21,7 @@ private:
 class QueryResult2 {
 	//friend std::ostream& print2(std::ostream&, const QueryResult2&);
 	friend std::ostream& print2(std::ostream&, QueryResult2);
+	friend std::ostream& print2(std::ostream&, QueryResult2, size_t, size_t);
 public:
 	using ResultIter = std::set<StrBlob::size_type>::iterator;
 	QueryResult2()=default;
@@ -39,3 +40,4 @@ private:
 
 //std::ostream& print2(std::ostream&, const QueryResult2&);
 std::ostream& print2(std::ostream&, QueryResult2);
+std::ostream& print2(std::ostream&, QueryResult2, size_t, size_t);

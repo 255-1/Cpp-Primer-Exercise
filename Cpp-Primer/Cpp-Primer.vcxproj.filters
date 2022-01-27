@@ -843,6 +843,9 @@
     <ClCompile Include="ex_15.39.cpp">
       <Filter>源文件\chapter15</Filter>
     </ClCompile>
+    <ClCompile Include="ex_15.42_c.cpp">
+      <Filter>源文件\chapter15</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_item.h">

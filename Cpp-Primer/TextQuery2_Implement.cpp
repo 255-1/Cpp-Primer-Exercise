@@ -57,3 +57,13 @@ print2(std::ostream& os, QueryResult2 qr) {
 	}
 	return os;
 }
+
+std::ostream&
+print2(std::ostream& os, QueryResult2 qr, size_t lo, size_t hi) {
+	os << qr.sought << " occurs " << qr.lines->size() << " times" << endl;
+	for (auto num : *qr.lines) {
+		if(num >= lo && num <= hi)
+			os << "\t(line " << num + 1 << ") "<< *(qr.file.begin() + num) << endl;
+	}
+	return os;
+}

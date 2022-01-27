@@ -55,6 +55,9 @@
     <Filter Include="源文件\chapter14">
       <UniqueIdentifier>{c3f69daa-9322-4f8c-9a9c-f2edaa5101c2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\chapter15">
+      <UniqueIdentifier>{311d24ad-a6e7-46a2-b962-cabd954a44cf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ex_1.1.cpp">
@@ -780,6 +783,66 @@
     <ClCompile Include="ex_14.45.cpp">
       <Filter>源文件\chapter14</Filter>
     </ClCompile>
+    <ClCompile Include="Quote.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_15.3.cpp">
+      <Filter>源文件\chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_15.6.cpp">
+      <Filter>源文件\chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_15.7.cpp">
+      <Filter>源文件\chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_15.11.cpp">
+      <Filter>源文件\chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_15.13.cpp">
+      <Filter>源文件\chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_15.14.cpp">
+      <Filter>源文件\chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_15.15.cpp">
+      <Filter>源文件\chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_15.16.cpp">
+      <Filter>源文件\chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_15.18.cpp">
+      <Filter>源文件\chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_15.21.cpp">
+      <Filter>源文件\chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_15.26.cpp">
+      <Filter>源文件\chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_15.28.cpp">
+      <Filter>源文件\chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_15.29.cpp">
+      <Filter>源文件\chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_15.30.cpp">
+      <Filter>源文件\chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="Query_base.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_15.36.cpp">
+      <Filter>源文件\chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_15.38.cpp">
+      <Filter>源文件\chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_15.39.cpp">
+      <Filter>源文件\chapter15</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_item.h">
@@ -839,6 +902,18 @@
     <ClInclude Include="String.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Quote.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Basket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Query_base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
@@ -863,6 +938,9 @@
       <Filter>资源文件</Filter>
     </Text>
     <Text Include="input1229.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="input159.txt">
       <Filter>资源文件</Filter>
     </Text>
   </ItemGroup>

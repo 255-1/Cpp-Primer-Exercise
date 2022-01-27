@@ -2,6 +2,7 @@
 #include <vector>
 #include "Sales_data.h"
 #include "StrVec.h"
+#include "Quote.h"
 using namespace std;
 
 int next_num() {
@@ -35,13 +36,13 @@ private:
 	int num;
 };
 
-
 int maintest() {
-
-	StrVec vec;
-	string s = "some string or another";
-	vec.push_back(s);
-	vec.push_back("done");
+	Quote* b = new Bulk_quote("a", 1, 1, 0.3);
+	cout << b->net_price(2);
+	//StrVec vec;
+	//string s = "some string or another";
+	//vec.push_back(s);
+	//vec.push_back("done");
 
 	//int a[5]{0};
 	//for (auto it = begin(a); it != end(a); ++it) {

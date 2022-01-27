@@ -10,6 +10,7 @@
 class QueryResult2;
 class TextQuery2 {
 public:
+	using line_no = std::vector<std::string> ::size_type;
 	TextQuery2(std::ifstream&);
 	QueryResult2 query(const std::string&) const;
 private:
@@ -18,9 +19,11 @@ private:
 };
 
 class QueryResult2 {
-	friend std::ostream& print2(std::ostream&, const QueryResult2&);
+	//friend std::ostream& print2(std::ostream&, const QueryResult2&);
+	friend std::ostream& print2(std::ostream&, QueryResult2);
 public:
 	using ResultIter = std::set<StrBlob::size_type>::iterator;
+	QueryResult2()=default;
 	QueryResult2(std::string s,
 		std::shared_ptr<std::set<StrBlob::size_type>>p,
 		StrBlob f) :
@@ -34,4 +37,5 @@ private:
 	StrBlob file;
 };
 
-std::ostream& print2(std::ostream&, const QueryResult2&);
+//std::ostream& print2(std::ostream&, const QueryResult2&);
+std::ostream& print2(std::ostream&, QueryResult2);

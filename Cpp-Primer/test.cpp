@@ -3,6 +3,7 @@
 #include "Sales_data.h"
 #include "StrVec.h"
 #include "Quote.h"
+#include "Blob.h"
 using namespace std;
 
 int next_num() {
@@ -36,9 +37,20 @@ private:
 	int num;
 };
 
+template <typename T> class Pal;
+class C {
+	friend class Pal<C>;
+	//friend class Pal<C2>;
+	//friend class Pal3;
+	//friend void tt(C c);
+};
 int maintest() {
-	Quote* b = new Bulk_quote("a", 1, 1, 0.3);
-	cout << b->net_price(2);
+	//Blob<int> ia = { 0,1,2,3,4 };
+	//cout << *(ia.begin()) << endl;
+	//ia.pop_back();
+	//cout << ia.back() << endl;
+	//Quote* b = new Bulk_quote("a", 1, 1, 0.3);
+	//cout << b->net_price(2);
 	//StrVec vec;
 	//string s = "some string or another";
 	//vec.push_back(s);

@@ -1,4 +1,5 @@
 #include <string>
+#include <unordered_set>
 #include <iostream>
 
 class Sales_data;
@@ -6,14 +7,16 @@ Sales_data add(const Sales_data&, const Sales_data&);
 std::ostream& operator<<(std::ostream&, const Sales_data&);
 std::istream& operator>>(std::istream&, Sales_data&);
 Sales_data operator+(const Sales_data&, const Sales_data&);
-
+bool operator==(const Sales_data& lhs, const Sales_data& rhs);
+template <class T> class std::hash;
 class Sales_data {
+	friend class std::hash<Sales_data>;
 	//友元函数
 	friend Sales_data add(const Sales_data&, const Sales_data&);
 	friend std::ostream& operator<<(std::ostream&, const Sales_data&);
 	friend std::istream& operator>>(std::istream&, Sales_data&);
 	friend Sales_data operator+(const Sales_data&, const Sales_data&);
-	
+	friend bool operator==(const Sales_data& lhs, const Sales_data& rhs);
 public:
 	//新增的构造函数
 	Sales_data() = default;
@@ -52,3 +55,19 @@ private:
 	unsigned units_sold = 0;
 	double revenue = 0;	
 };
+
+//ex_16.62
+namespace std {
+	template <>
+	struct hash<Sales_data>
+	{
+		using result_type = size_t;
+		using argument_type = Sales_data;
+		size_t operator()(const Sales_data& s)const {
+			return hash<string>()(s.bookNo) ^
+				hash<unsigned>()(s.units_sold) ^
+				hash<double>()(s.revenue);
+		}
+	};
+
+}

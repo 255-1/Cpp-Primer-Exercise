@@ -30,6 +30,8 @@ public:
 
 	void reserve(size_t new_cap);
 	void resize(size_t count);
+	//ex_16.58
+	template<class...Args> void emplace_back(Args&&...);
 private:
 	std::allocator<std::string> alloc;
 	//添加元素使用

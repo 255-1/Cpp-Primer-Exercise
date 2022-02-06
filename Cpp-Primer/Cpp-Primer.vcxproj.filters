@@ -58,6 +58,9 @@
     <Filter Include="源文件\chapter15">
       <UniqueIdentifier>{311d24ad-a6e7-46a2-b962-cabd954a44cf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\chapter16">
+      <UniqueIdentifier>{42c5c5c8-ed0a-4f8a-bcf8-08728ebcd83f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ex_1.1.cpp">
@@ -846,6 +849,90 @@
     <ClCompile Include="ex_15.42_c.cpp">
       <Filter>源文件\chapter15</Filter>
     </ClCompile>
+    <ClCompile Include="ex_16.2.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.3.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.4.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.5.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.6.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.7.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.12.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.14.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.16.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.15.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.19.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.20.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.21.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.24.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.28.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.29.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.34.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.36.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.39.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.41.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.42.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.45.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.47.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.50.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.51.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.53.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.61.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_16.62.cpp">
+      <Filter>源文件\chapter16</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_item.h">
@@ -915,6 +1002,27 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Query_base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Blob.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BlobPtr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDelete.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedPointer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Delete.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="myHash.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

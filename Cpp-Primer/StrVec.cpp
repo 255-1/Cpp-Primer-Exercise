@@ -104,6 +104,14 @@ void StrVec::resize(size_t count)
 	}
 }
 
+template<class ...Args>
+inline 
+void StrVec::emplace_back(Args && ... args)
+{
+	chk_n_alloc();
+	alloc.construct(first_free++, std::forward<Args>(args)...);
+}
+
 std::pair<std::string*, std::string*> 
 StrVec::alloc_n_copy(const std::string* b, const std::string* e)
 {

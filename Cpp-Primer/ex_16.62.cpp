@@ -4,7 +4,7 @@
 #include <algorithm>
 using namespace std;
 
-int main()
+int main1662()
 {
 	unordered_set<Sales_data> SDset;
 	SDset.insert(Sales_data("a", 1, 1));

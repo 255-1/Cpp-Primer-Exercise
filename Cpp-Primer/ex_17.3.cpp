@@ -55,4 +55,5 @@ int main173()
 	for (auto& e : *res2)
 		cout << e << " ";
 	cout << endl;
+	return 0;
 }

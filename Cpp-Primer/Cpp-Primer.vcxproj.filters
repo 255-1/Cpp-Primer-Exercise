@@ -948,6 +948,24 @@
     <ClCompile Include="ex_17.3.cpp">
       <Filter>源文件\chapter17</Filter>
     </ClCompile>
+    <ClCompile Include="ex_18.1.cpp">
+      <Filter>源文件\chapter18</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_18.16.cpp">
+      <Filter>源文件\chapter18</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_18.18.cpp">
+      <Filter>源文件\chapter18</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_18.20.cpp">
+      <Filter>源文件\chapter18</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_18.28.cpp">
+      <Filter>源文件\chapter18</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_18.29.cpp">
+      <Filter>源文件\chapter18</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_item.h">

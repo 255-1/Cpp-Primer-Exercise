@@ -15,6 +15,7 @@ private:
 class WordQuery : public Query_base
 {
 	friend class Query;
+public:
 	WordQuery(const std::string& s) :query_word(s) {
 		std::cout << "WordQuery¹¹Ôì,s=" + s << std::endl;
 	}

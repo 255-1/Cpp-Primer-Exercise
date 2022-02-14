@@ -71,6 +71,8 @@ template <unsigned H, unsigned W>
 class Screen {
 	friend std::ostream& operator<<<H,W>(std::ostream& os, const Screen<H, W>& s);
 	friend std::istream& operator>><H,W>(std::istream& is, Screen<H, W>& s);
+	//ex_19,6
+	friend int main1912();
 public:
 	using pos = std::string::size_type;
 	Screen() = default;

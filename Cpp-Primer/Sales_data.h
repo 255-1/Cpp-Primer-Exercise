@@ -17,6 +17,8 @@ class Sales_data {
 	friend std::istream& operator>>(std::istream&, Sales_data&);
 	friend Sales_data operator+(const Sales_data&, const Sales_data&);
 	friend bool operator==(const Sales_data& lhs, const Sales_data& rhs);
+	//ex_19.13
+	friend int main1913();
 public:
 	//新增的构造函数
 	Sales_data() = default;

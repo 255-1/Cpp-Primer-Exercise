@@ -67,6 +67,9 @@
     <Filter Include="源文件\chapter18">
       <UniqueIdentifier>{b195db4c-e21e-4765-a0f0-031b02741c15}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\chapter19">
+      <UniqueIdentifier>{b18489bf-cf1e-4be7-860a-7f73551d8e17}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ex_1.1.cpp">
@@ -965,6 +968,24 @@
     </ClCompile>
     <ClCompile Include="ex_18.29.cpp">
       <Filter>源文件\chapter18</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_19.1.cpp">
+      <Filter>源文件\chapter19</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_19.3.cpp">
+      <Filter>源文件\chapter19</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_19.6.cpp">
+      <Filter>源文件\chapter19</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_19.12.cpp">
+      <Filter>源文件\chapter19</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_19.13.cpp">
+      <Filter>源文件\chapter19</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_19.18.cpp">
+      <Filter>源文件\chapter19</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
